@@ -1,0 +1,47 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  top: 0;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.navLeft,
+.navRigth {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navIcon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+.navImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.navCenter {
+  flex: 6;
+}
+.navList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.navListItem {
+  font-size: 22px;
+  margin-right: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}

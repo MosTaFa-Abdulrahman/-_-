@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+}
+.wrapper {
+  flex: 9;
+  padding: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.update {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: lightcoral;
+}
+.sForm {
+  display: flex;
+  flex-direction: column;
+}
+.sPP {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+.sImage {
+  width: 170px;
+  height: 170px;
+  border-radius: 15px;
+  object-fit: cover;
+  background-color: #ccc;
+}
+.userIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
+label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+input {
+  /* max-width: max-content; */
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.sSubmit {
+  align-self: center;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sSubmit:hover {
+  background-color: rgb(1, 114, 114);
+}
